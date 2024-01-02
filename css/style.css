@@ -1,0 +1,267 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+body{
+  position: relative;
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.text-break {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Boxes */
+
+.box {
+  border: 3px solid;
+  min-width: 5rem;
+}
+
+.box h3 {
+  font-size: 2rem;
+  font-size: bold;
+  text-transform: uppercase;
+}
+
+.box-light {
+  color: #212529;
+  background-color: #ABAFC1;
+  border-color: #212529;
+}
+
+.box-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #fff;
+}
+
+.box-icon {
+  font-size: 3rem;
+}
+
+.box button {
+  font-size: 1.5rem;
+  height: 40px;
+  justify-content: flex-end;
+}
+
+
+/* Header section */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.bi-chevron-double-left, .bi-chevron-double-right {
+  color: #FFFFFF8C;
+}
+
+.bi-chevron-double-left:hover, .bi-chevron-double-right:hover{
+  color: #FFF;
+}
+
+.hero-shadov{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  z-index: -1;
+}
+
+.navbar-brand, .navbar, .navbar-toggler {
+  font-size: 2rem;
+}
+
+.header {
+  position: relative;
+  height: 30rem;
+  background-image: url('../img/pixabayImg/analysis-640.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.cv-img{
+  position: relative;
+  height: 200px;
+  background-size: cover;
+}
+
+.header-center button {
+  font-size: 2rem;
+}
+
+.header-right h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-right p {
+  font-size: 2rem;
+}
+
+.header-right i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.header-right a {
+  text-decoration: none;
+}
+
+.bi-github:hover {
+  color: black;
+}
+
+.bi-linkedin:hover {
+  color: blue;
+}
+
+.navbar .navbar-brand:hover {
+  color: #3589f0;
+}
+
+/* Main section */
+
+/* Left section */
+
+.left-main {
+  border-right: solid 5px;
+  border-color: #212529;
+  background-color: #747E88;
+}
+
+.left-main h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #212529;
+}
+
+.left-main p, .left-main a {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.left-main a {
+  text-decoration: none;
+}
+
+.left-main i {
+  font-size: 4rem;
+  color: #212529;
+}
+
+.section-underline {
+  border: solid 2px;
+  border-color: #1C297E;
+}
+
+/* Right section */
+
+.right-main {
+  /* min-width: 1100px; */
+}
+
+.right-main h1 {
+  font-size: 3rem;
+}
+
+.right-main h3 {
+  font-size: 2.5rem;
+}
+
+.right-main p {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Experience section */
+
+.experience {
+  background-color: #1F2F74;
+}
+
+/* Experience cut-technician */
+
+.cut-technican .box {
+  height: 460px;
+}
+
+/* Experience planist */
+
+.planist .box {
+  height: 400px;
+}
+
+/* Education */
+
+.education {
+  background-color: #3C4671;
+}
+
+.education .box {
+  height: 460px;
+}
+
+/* Projects */
+
+.projects {
+  background-color: #1F2F74;
+}
+
+.projects .box {
+  height: 480px;
+}
+
+/* Footer section */
+
+footer p {
+  font-size: 2rem;
+}
+
+/* Media */
+
+@media (max-width: 1200px) {
+  .header .container {
+    padding: 0;
+    position: relative;
+    text-align: center;
+    border-top: rgba(255, 0, 0, 0.5);
+  }
+
+  .header-left, .header-right {
+    visibility: hidden;
+  }
+
+  .header-center button {
+    margin-top: 10px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .header-center button {
+    visibility: hidden;
+  }
+}
