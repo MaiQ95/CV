@@ -259,9 +259,3 @@ footer p {
   }
 
 }
-
-@media (min-width: 1200px) {
-  .header-center button {
-    visibility: hidden;
-  }
-}
